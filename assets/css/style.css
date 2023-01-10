@@ -152,13 +152,14 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-#testo-sottotitolato {
+#testo-sottolineato {
   position: relative;
 }
 #testo-sottolineato img {
   position: absolute;
-  bottom: 0;
-  right: 3em;
+  right: -6px;
+  width: 100%;
+  top: 75px;
 }
 h1 {
   font-size: 2.6rem;
@@ -167,34 +168,46 @@ h1 {
   letter-spacing: -0.03em;
   margin-bottom: 0em;
 }
+.calendar-fixed {
+  margin-top: 265px;
+  color: #3f6bca;
+}
+.plus-fixed {
+  margin-top: 180px;
+  color: #3f6bca;
+}
 
-.element-fixed {
+.goTop-fixed {
+  margin-top: 350px;
+  color: #ffb300c2;
+}
+.clearfix a {
+  position: fixed;
+  right: 0;
+  padding: 0.5em;
+  border-color: white;
+  background-color: white;
+  z-index: 0;
   position: fixed;
   right: 0;
 }
 
 @media screen and (min-width: 700px) {
-  .blue {
-    display: inline-block;
-  }
-
-  .element-fixed #bottone-blu1,
-  #bottone-blu2 {
+  .calendar-fixed {
     position: fixed;
     top: 0;
     right: 0;
   }
-  #bottone-su {
+  .plus-fixed {
     position: fixed;
-    color: purple;
+    top: 0;
+    right: 0;
+  }
+  .goTop-fixed {
+    position: fixed;
     right: 0;
     bottom: 0;
   }
-}
-
-.bottone {
-  padding: 0.5em;
-  border-color: white;
 }
 
 p,
