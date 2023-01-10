@@ -18,6 +18,31 @@ hr {
 .clearfix img {
   float: left;
 }
+
+.clearfix p {
+  margin-top: 2.5em;
+}
+
+#clear1 p {
+  clear: both;
+}
+@media screen and (min-width: 1072) {
+  .clearfix span img {
+    margin-top: 0;
+    position: relative;
+    right: -45%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 320) and (max-width: 1071) {
+  .clearfix span img {
+    margin-top: 0;
+    position: absolute;
+    max-width: 100%;
+  }
+}
+
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
@@ -107,7 +132,6 @@ section {
   background-color: #e3e3e3;
   padding: 1.5em 1em;
   margin-bottom: 2em;
-  position: relative;
 }
 
 section h2 {
@@ -121,13 +145,20 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+#testo-sottotitolato {
+  position: relative;
+}
+#testo-sottolineato img {
+  position: absolute;
+  bottom: 0;
+  right: 3em;
+}
 h1 {
   font-size: 2.6rem;
   line-height: 1.2;
   font-weight: bold;
   letter-spacing: -0.03em;
-  margin-bottom: 0.7em;
+  margin-bottom: 0em;
 }
 
 p,
