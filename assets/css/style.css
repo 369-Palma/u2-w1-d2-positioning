@@ -179,6 +179,7 @@ h1 {
 
 .goTop-fixed {
   margin-top: 350px;
+  margin-bottom: 1em;
   color: #ffb300c2;
 }
 .clearfix a {
@@ -190,6 +191,7 @@ h1 {
   z-index: 0;
   position: fixed;
   right: 0;
+  box-shadow: 1px 1px 1px 1px #a3a3a3;
 }
 
 @media screen and (min-width: 700px) {
