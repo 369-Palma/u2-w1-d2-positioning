@@ -186,6 +186,7 @@ h1 {
   }
   #bottone-su {
     position: fixed;
+    color: purple;
     right: 0;
     bottom: 0;
   }
@@ -193,6 +194,7 @@ h1 {
 
 .bottone {
   padding: 0.5em;
+  border-color: white;
 }
 
 p,
