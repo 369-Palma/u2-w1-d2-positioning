@@ -168,6 +168,33 @@ h1 {
   margin-bottom: 0em;
 }
 
+.element-fixed {
+  position: fixed;
+  right: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .blue {
+    display: inline-block;
+  }
+
+  .element-fixed #bottone-blu1,
+  #bottone-blu2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  #bottone-su {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.bottone {
+  padding: 0.5em;
+}
+
 p,
 address,
 ul,
