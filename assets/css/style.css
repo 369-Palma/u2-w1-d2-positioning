@@ -145,7 +145,8 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
-  width: 35%;
+  width: 45%;
+  text-align: center;
   position: relative;
   top: -2em;
   z-index: 80;
@@ -187,7 +188,7 @@ h1 {
   right: 0;
   padding: 0.5em;
   border-color: white;
-  background-color: white;
+  background-color: #ffffff61;
   z-index: 0;
   position: fixed;
   right: 0;
@@ -212,6 +213,23 @@ h1 {
   }
 }
 
+@media screen and (min-width: 320px) and(max-width:699) {
+  .calendar-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .plus-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  .goTop-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+}
 p,
 address,
 ul,
@@ -394,6 +412,7 @@ aside h2 {
   text-transform: uppercase;
   margin-bottom: 1em;
 }
+
 aside div {
   background-color: #e3e3e3;
   border: 1px solid #c3c3c3;
@@ -412,6 +431,27 @@ aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
   text-align: right;
+}
+
+.card {
+  position: relative;
+}
+
+.fa-tag:before {
+  content: "\f02b";
+  position: absolute;
+  right: 500px;
+  top: 30px;
+  font-size: 35px;
+  color: grey;
+}
+.fa-tag::before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  font-size: 40px;
+  color: #c7c5c5;
 }
 
 /* FOOTER */
