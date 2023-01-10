@@ -145,6 +145,10 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  width: 35%;
+  position: relative;
+  top: -2em;
+  z-index: 80;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
